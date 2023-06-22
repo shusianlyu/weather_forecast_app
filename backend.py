@@ -1,6 +1,7 @@
 import requests
+import config
 
-API_KEY = "8de3f84a8f948ebd96c24db4c11b39ee"
+API_KEY = config.API_KEY
 
 
 def get_data(place, forecast_days):
