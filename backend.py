@@ -16,4 +16,4 @@ def get_data(place, forecast_days):
 
 
 if __name__ == '__main__':
-    print(get_data("Tokyo", 2))
+    print(get_data("Taipei", 2))
